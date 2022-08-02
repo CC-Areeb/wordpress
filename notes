@@ -41,3 +41,7 @@ There are 10 important files needed by WordPress to display out theme
 9 - footer.php
 
  
+
+ We can define our header and footer once only and then use it in many pages as we want as
+ these files are seperate entities and if we make any changes to these so they are reflected 
+ in all the files where they are used.
