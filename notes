@@ -1,0 +1,43 @@
+These core files are very important for WordPress theme development as these files are the basis by which the 
+WordPress will be able to identify this as a theme
+
+Core file names are as follows:
+
+1 - index.php ---> this will the first thing that WordPress loads in the template "hierarchy".
+
+2 - style.css ---> basic stylesheet for out theme but needs to meet certain criteria before WordPress
+	considers this a part of its theme.
+
+	format for this css file are as follows: 
+
+	/**
+	Theme name: My Theme;
+	Author: You name;
+	**/
+
+	you can add other things as well like version, URL, tags and anything you wish 
+	you can get more detailed insight at the wordpress handbook
+
+
+There are 10 important files needed by WordPress to display out theme
+
+1 - functions.php ----> This is known as the plugin that comes with the theme allowing us to put the
+						functionality within the theme
+
+2 - page.php
+
+3 - single.php
+
+4 - archive.php
+
+5 - front-page.php
+
+6 - search.php
+
+7 - 404.php
+
+8 - header.php
+
+9 - footer.php
+
+ 
